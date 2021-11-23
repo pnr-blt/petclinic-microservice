@@ -12,6 +12,7 @@ pipeline {
         RANCHER_CONTEXT="c-6tfb6:p-zdcbb" 
         RANCHER_CREDS=credentials('rancher-petclinic-credentials')
     }
+    //jar file oluşturmak için;
     stages {
         stage('Package Application') {
             steps {
