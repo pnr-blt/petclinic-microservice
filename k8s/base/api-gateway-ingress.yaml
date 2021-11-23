@@ -13,7 +13,7 @@ metadata:
   name: api-gateway
 spec:
   rules:
-    - host: petclinic07.clarusway.us
+    - host: petclinic.devopspnar.com
       http:
         paths:
           - backend:
